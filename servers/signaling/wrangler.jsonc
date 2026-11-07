@@ -1,0 +1,19 @@
+{
+  "name": "multiplayer-edit",
+  "main": "worker.js",
+  "compatibility_date": "2026-11-07",
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "SIGNALING_HUB",
+        "class_name": "SignalingHub"
+      }
+    ]
+  },
+  "exports": {
+    "SignalingHub": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
+  }
+}
