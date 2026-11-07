@@ -59,7 +59,8 @@ When players host a room in-game using a room code, the mod uses WebRTC to estab
 See the [servers/signaling/README.md](servers/signaling/README.md) file for setup instructions. You can update the **Signaling Server URL** setting in the mod settings to use your custom server.
 
 ### 2. Dedicated Servers (Node.js)
-You can run a standalone, headless server that hosts a level 24/7 without needing Geometry Dash open or even installed. Players connect directly to it using an IP address. 
+You can run a standalone, headless server that hosts a level 24/7 without needing Geometry Dash open or even installed. Players connect directly to it using an IP address.
+Deploy configuration update.
 See the [servers/dedicated/README.md](servers/dedicated/README.md) file for setup and hosting instructions.
 
 ## Support Development
